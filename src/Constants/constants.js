@@ -42,16 +42,13 @@ import {
   figmaIcon,
   avatar,
   portfolio1,
+  portfolio2,
   portfolio3,
   portfolio4,
   portfolio5,
   portfolio6,
   portfolio7,
   portfolio8,
-  portfolio9,
-  portfolio10,
-  portfolio11,
-  portfolio12,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -121,66 +118,59 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Hulk Cars",
+    name: "Hunos",
     description:
       "Developed a Web3-based platform that enables tokenization of real-world vehicles as NFTs, allowing users to invest in and rent high-value assets like luxury cars. The system integrates blockchain-based ownership with a modern web interface, providing a seamless user experience for browsing, purchasing, and managing tokenized assets. Built with a scalable architecture to support secure transactions, asset tracking, and high-performance user interactions.",
     image: portfolio1,
     demo_link: "https://hulkcars.com/",
   },
-  // {
-  //   name: "Sigma Beauty",
-  //   description:
-  //     "This project implements Connect Four in Python and Pygame, featuring a GUI and gameplay modes for player vs. AI and AI vs. AI. The AI uses the MiniMax algorithm, with optional alpha-beta pruning for improved performance.",
-  //   image: portfolio2,
-  //   demo_link: "https://sigmabeauty.com/",
-  // },
   {
     name: "Scribble Together",
     description:
       "Built a real-time collaborative whiteboard application enabling users to draw, write, and share ideas simultaneously across multiple devices. Implemented live synchronization using WebSockets, interactive canvas features, and scalable backend services with Node.js/Django and Redis. Developed a responsive UI with React to deliver seamless collaboration. The platform is designed for efficient remote teamwork, diagramming, and problem-solving.",
-    image: portfolio3,
+    image: portfolio2,
     demo_link: "https://scribbletogether.com/",
   },
   {
     name: "Habit Tracker App",
     description:
       "Developed a gamified habit tracking application with task and reward systems to improve user engagement and productivity. Built REST APIs using Django/Node.js for managing habits, progress, and user data, and developed a dynamic frontend with React for real-time updates. Integrated PostgreSQL for structured data storage and deployed on AWS using Docker. The platform helps users build consistent habits through interactive and engaging experiences.",
-    image: portfolio4,
+    image: portfolio3,
     demo_link: "https://habitica.com/",
   },
   {
     name: "Booking System",
     description:
       "Developed a booking and scheduling system with calendar-based availability and appointment management. Built REST APIs using Django/Node.js for handling bookings, user schedules, and notifications, and created a responsive frontend with React. Integrated PostgreSQL for managing time slots and optimized scheduling logic. The platform streamlines appointment management for service-based businesses.",
-    image: portfolio5,
+    image: portfolio4,
     demo_link: "https://easyappointments.org/",
   },
   {
     name: "Issue Tracker",
     description:
       "Built an issue tracking system with task management and workflow automation for development teams. Designed scalable APIs using Django/Node.js for issue creation, status tracking, and collaboration, and developed a modern Kanban-based UI using React. Implemented role-based access control and optimized database performance. The platform improves team productivity and project visibility.",
-    image: portfolio6,
+    image: portfolio5,
     demo_link: "https://plane.so/",
   },
   {
     name: "Kryptomon",
     description:
       "Developed a Web3-based NFT platform for creating and managing unique digital creatures with dynamic attributes and traits. Built scalable backend services for asset management and ownership tracking, and developed an interactive frontend using React for a seamless user experience. Integrated blockchain technology for secure NFT minting and transactions. The platform is designed to enable users to collect, trade, and interact with digital assets in a gamified ecosystem.",
-    image: portfolio7,
+    image: portfolio6,
     demo_link: "https://www.kryptomon.co/",
   },
   {
     name: "Casino Game Alphapuesta",
     description:
       "Developed a full-stack online casino platform with interactive slot and roulette games, user authentication, and reward systems. Built scalable backend services using Node.js/Django and developed a dynamic frontend with React. The platform is designed to deliver engaging gaming experiences with real-time interactions and secure transactions.",
-    image: portfolio8,
+    image: portfolio7,
     demo_link: "https://alphapuesta.net/",
   },
   {
     name: "Fjällräven",
     description:
       "Developed a modern eCommerce platform for fashion products with product listings, filtering, and cart functionality. Built scalable APIs for product and order management using Django/Node.js, and created a responsive frontend with React. The platform provides a seamless shopping experience with optimized performance.",
-    image: portfolio11,
+    image: portfolio8,
     demo_link: "https://www.fjallraven.com/",
   },
 ];
