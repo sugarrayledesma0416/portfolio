@@ -90,9 +90,9 @@ const introduction = {
   text: [
     "Hello there, I'm so happy you are here! (:",
 
-    "Hello, I'm Sugar Ray, a Senior Full Stack Engineer with over 7 years of experience building scalable, high-performance applications across SaaS and enterprise environments. I specialize in backend development using Python (Django, Django REST Framework) and Node.js, along with modern frontend technologies like React, Next.js, and TypeScript.",
-    "I have strong experience designing distributed systems and microservices, optimizing database performance, and building secure, production-grade APIs using REST and GraphQL. I consistently focus on improving scalability, reducing latency, and maintaining high availability in demanding environments.",
-    "I work extensively with AWS, Docker, Kubernetes, and CI/CD pipelines to deliver reliable systems. I enjoy solving complex problems, writing clean and maintainable code, and collaborating with teams to build solutions that create real business impact.",
+    "Hello, I'm Sugar Ray, a Senior Full Stack Engineer with 7+ years of experience building scalable, high-performance web applications for SaaS platforms and enterprise systems. I specialize in Python (Django, DRF) and Node.js on the backend, and React, Next.js, and TypeScript on the frontend. My expertise includes API development, microservices architecture, cloud infrastructure, and modern web application development.",
+    "Over the years, I've helped businesses improve scalability, optimize performance, and deliver reliable software solutions using AWS, Docker, Kubernetes, and CI/CD practices. I also leverage AI-assisted development tools to accelerate delivery, improve code quality, and streamline engineering workflows.",
+    "I enjoy solving complex technical challenges, writing clean and maintainable code, and building products that create meaningful business impact.",
     "You can download my resume here.",
   ],
 };
